@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+{% load render_table from django_tables2 %}
+<html>
+<head>
+    <title></title>
+    <link href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ STATIC_URL }}fonts/glyphicons-halflings-regular.ttf" rel="stylesheet">
+    <link rel="stylesheet" href="{{ STATIC_URL }}django_tables2/themes/paleblue/css/screen.css" />
+</head>
+<body>
+
+    <div class="panel panel-primary" style="border-radius: 0px;">
+      <div class="panel-heading" style="border-radius: 0px;">
+         <h3 class="panel-title" style="font-size: 150%;">Guitars</h3>
+      </div>
+      <div class="panel-body">
+      <form action={% url 'action' %} method="post">
+        {%csrf_token%}
+        <div class="container" style="text-align: center">
+            <div style="text-align: left; position: absolute">
+                <label for="action" class="control-label">Action:</label>
+                <select id="action" name="action" class="dropdown">
+                    <option value="-">----</option>
+                    <option value="delete">delete</option>
+                </select>
+                <input type="submit" value="Go" class="btn btn-xs"/>
+            </div>
+            <div style="text-align: right;margin-bottom: 5px">
+                <div style="text-align: right"><a href="{% url 'add' %}" style="text-decoration: none">Add <span class="glyphicon glyphicon-plus"></span></a></div>
+            </div>
+            {% render_table table %}
+        </div>
+      </form>
+
+      </div>
+    </div>
+
+    <script src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
+    <script language="JavaScript">
+    function toggle(source) {
+        checkboxes = document.getElementsByName('selection');
+        for(var i in checkboxes)
+            checkboxes[i].checked = source.checked;
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% load bootstrap %}
+<html>
+<head>
+    <title></title>
+    <link href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="panel panel-primary" style="border-radius: 0px;">
+      <div class="panel-heading" style="border-radius: 0px;">
+         <h3 class="panel-title" style="font-size: 150%;">Add guitar</h3>
+      </div>
+      <div class="panel-body">
+        <form action="{% url 'index' %}" method="post">
+        {% csrf_token %}
+            <div class="container">
+                {{ form|bootstrap}}
+                <input type="submit" class="btn btn-default" value="Save" />
+            </div>
+        </form>
+      </div>
+    </div>
+<script src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
+</body>
+</html>
