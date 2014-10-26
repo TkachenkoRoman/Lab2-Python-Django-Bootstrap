@@ -9,12 +9,13 @@
 </head>
 <body>
 
-    <div class="panel panel-primary" style="border-radius: 0px;">
+    <div class="panel panel-primary" style="border-radius: 0px; margin-bottom: 2px">
       <div class="panel-heading" style="border-radius: 0px;">
          <h3 class="panel-title" style="font-size: 150%;">Guitars</h3>
       </div>
-      <div class="panel-body">
-      <form action={% url 'action' %} method="post">
+    </div>
+    <div style="text-align: left; padding: 2px 15px"><a href="{% url 'index' %}" style="text-decoration: none;"><span class="glyphicon glyphicon-home"></span> Home</a></div>
+    <form action={% url 'action' %} method="post">
         {%csrf_token%}
         <div class="container" style="text-align: center">
             <div style="text-align: left; position: absolute">
@@ -30,10 +31,7 @@
             </div>
             {% render_table table %}
         </div>
-      </form>
-
-      </div>
-    </div>
+    </form>
 
     <script src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
     <script language="JavaScript">

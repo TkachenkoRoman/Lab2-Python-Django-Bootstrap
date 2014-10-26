@@ -1,4 +1,4 @@
-from django.forms import ModelForm, BooleanField
+from django.forms import ModelForm, IntegerField
 import models
 
 class GuitarAddForm(ModelForm):
