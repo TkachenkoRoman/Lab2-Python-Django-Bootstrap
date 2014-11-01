@@ -21,32 +21,23 @@
     <form action={% url 'history_action' %} method="post">
         {%csrf_token%}
         <div class="jumbotron" style="position: absolute; background-color: #EDF3FE;">
-                <div style="text-align: left">
-                    <label for="insert" class="control-label">Insert</label>
-                    <input type="checkbox" name="insert" id="checkbox1"/>
-                </div>
-                <div style="text-align: left">
-                    <label for="update" class="control-label">Update</label>
-                    <input type="checkbox" name="update" id="checkbox2" checked="{{ update }}"/>
-                </div>
-                <div style="text-align: left">
-                    <label for="delete" class="control-label">Delete</label>
-                    <input type="checkbox" name="delete" id="checkbox3" checked="{{ delete }}"/>
-                </div>
-                <a href="javascript:check();"></a>
-                <div style="text-align: left">
-                    <input type="submit" value="Go" class="btn btn-default"/>
-                </div>
+            <div>
+                {{ formset.management_form }}
+                {% for form in formset %}
+                <div>{{ form }}</div>
+                {% endfor %}
+                <input type="submit" value="Go" class="btn btn-default"/>
             </div>
+        </div>
         <div class="container" style="text-align: center">
             {% render_table table %}
         </div>
     </form>
     <script language="JavaScript">
         function check() {
-            document.getElementById("checkbox1").checked = {{ insert }};
-            document.getElementById("checkbox2").checked = {{ update }};
-            document.getElementById("checkbox3").checked = {{ delete }};
+            document.getElementById("1").checked = {{ insert }};
+            document.getElementById("2").checked = {{ update }};
+            document.getElementById("3").checked = {{ delete }};
         }
     </script>
     <script src="{{ STATIC_URL }}js/bootstrap.min.js"></script>

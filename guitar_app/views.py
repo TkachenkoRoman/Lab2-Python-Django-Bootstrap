@@ -5,7 +5,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 import forms
 import sql_scripts
 from django.db import connection
-# Create your views here.
+from django.forms.models import modelformset_factory
 
 def index(request):
     table = tables.GuitarTable(models.Guitar.objects.all())
@@ -56,19 +56,18 @@ def load_data_view(request):
     return HttpResponseRedirect('/')
 
 
+def history_action(request):
+    if request.method == 'POST':
+        VarFormSet = modelformset_factory(models.Variables, form=forms.VariablesForm, extra=0)
+        formset = VarFormSet(request.POST)
+        for form in formset:
+            form.save()
+    return HttpResponseRedirect('/')
 
 def history(request):
-    insert = sql_scripts.get_trigger_insert_value()
-    if request.method == 'POST':
-        if 'insert' not in request.POST:
-            sql_scripts.insert = ""
-            sql_scripts.disable_history_insert(True)
-        else:
-            sql_scripts.insert = "checked"
-            sql_scripts.disable_history_insert(False)
-        return HttpResponseRedirect('/')
-    else:
-        table = tables.HistoryTable(models.History.objects.all())
-        RequestConfig(request).configure(table)
-    return render(request, 'guitar_app/history.html', {'table': table, 'insert': insert,\
-                                                       'update': sql_scripts.update, 'delete': sql_scripts.delete})
+    VarFormSet = modelformset_factory(models.Variables, form=forms.VariablesForm, extra=0)
+    formset = VarFormSet()
+    table = tables.HistoryTable(models.History.objects.all())
+    RequestConfig(request).configure(table)
+
+    return render(request, 'guitar_app/history.html', {'table': table, 'formset': formset})
