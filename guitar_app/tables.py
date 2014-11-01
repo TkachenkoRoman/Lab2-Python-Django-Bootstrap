@@ -8,3 +8,8 @@ class GuitarTable(tables.Table):
     class Meta:
         model = models.Guitar
         attrs = {"class": "paleblue"}
+
+class HistoryTable(tables.Table):
+    class Meta:
+        model = models.History
+        attrs = {"class": "paleblue"}

@@ -13,14 +13,13 @@
     </div>
     <div style="text-align: left; padding: 2px 15px;">
         <a href="{% url 'index'%}" style="text-decoration: none;"><span class="glyphicon glyphicon-home"></span> Home </a><span class="glyphicon glyphicon-arrow-right" style="color: #428bca;"></span>
-        <a href="{% url 'guitar_detail'%}" style="text-decoration: none;">guitar <span class=""></span></a>
+        <a href="{% url 'guitar_detail' pk %}" style="text-decoration: none;">guitar <span class=""></span></a>
     </div>
-    <form action="{% url 'guitar_detail'%}" method="get">
+    <form action="{% url 'guitar_detail' pk %}" method="post">
     {% csrf_token %}
         <div class="container">
             {{ form|bootstrap}}
             <input type="submit" class="btn btn-default" value="Save" />
-            <input type="hidden" name="id" value="{{ pk }}" />
         </div>
     </form>
 <script src="{{ STATIC_URL }}js/bootstrap.min.js"></script>

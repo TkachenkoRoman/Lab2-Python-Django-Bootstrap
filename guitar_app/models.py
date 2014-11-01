@@ -77,3 +77,12 @@ class Pickup(models.Model):
         managed = True
         db_table = 'pickups'
 
+class History(models.Model):
+    id = models.IntegerField(primary_key=True)
+    trigger_action = models.CharField(max_length=45, blank=True)
+    guitar_id = models.IntegerField(blank=True, null=True)
+    action_time = models.DateTimeField(blank=True, null=True)
+    class Meta:
+        managed = False
+        db_table = 'history'
+
