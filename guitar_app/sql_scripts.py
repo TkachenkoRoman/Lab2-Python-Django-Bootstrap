@@ -22,3 +22,15 @@ def load_data_from_files():
                     LINES TERMINATED BY '\n' (name, string_amount, price, neck_material, Fretboard_material, Pick_guard,
                      Type_id, Body_id, Bridge_id, Pickups_id, Guitar_produser_id);""")
 
+def dictfetchall(cursor):
+    "Returns all rows from a cursor as a dict"
+    desc = cursor.description
+    return [
+            dict(zip([col[0] for col in desc], row))
+            for row in cursor.fetchall()
+    ]
+
+def get_statistics():
+    cursor = connection.cursor()
+    cursor.execute("CALL statistics();")
+    return  dictfetchall(cursor)

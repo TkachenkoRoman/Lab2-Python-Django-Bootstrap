@@ -71,7 +71,7 @@ DATABASES = {
         'USER': 'root',
         'PASSWORD': 'kt315gt409',
         'HOST': '127.0.0.1',
-        'PORT': '4040',
+        #'PORT': '4040',
     }
 }
 

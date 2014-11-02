@@ -26,14 +26,14 @@
       <file leaf-file-name="sql_scripts.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guitar_app/sql_scripts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="1462" selection-end="1462" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="35" column="31" selection-start="1807" selection-end="1807" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
               <folding>
-                <marker date="1414870551087" expanded="true" signature="118:138" placeholder="DELETE FROM ..." />
-                <marker date="1414870551087" expanded="true" signature="167:183" placeholder="DELETE FROM ..." />
-                <marker date="1414870551087" expanded="true" signature="212:230" placeholder="DELETE FROM ..." />
-                <marker date="1414870551087" expanded="true" signature="259:278" placeholder="DELETE FROM ..." />
-                <marker date="1414870551087" expanded="true" signature="307:331" placeholder="DELETE FROM ..." />
-                <marker date="1414870551087" expanded="true" signature="360:378" placeholder="DELETE FROM ..." />
+                <marker date="1414924630172" expanded="true" signature="118:138" placeholder="DELETE FROM ..." />
+                <marker date="1414924630172" expanded="true" signature="167:183" placeholder="DELETE FROM ..." />
+                <marker date="1414924630172" expanded="true" signature="212:230" placeholder="DELETE FROM ..." />
+                <marker date="1414924630172" expanded="true" signature="259:278" placeholder="DELETE FROM ..." />
+                <marker date="1414924630172" expanded="true" signature="307:331" placeholder="DELETE FROM ..." />
+                <marker date="1414924630172" expanded="true" signature="360:378" placeholder="DELETE FROM ..." />
               </folding>
             </state>
           </provider>
@@ -43,18 +43,36 @@
         <entry file="file://$PROJECT_DIR$/guitar_app/forms.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="14" column="23" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="statistics.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guitar_app/templates/guitar_app/statistics.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="6" selection-start="370" selection-end="370" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="510">
               <folding>
-                <element signature="e#0#45#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/guitar_app/models.py">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/guitar_app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="10" selection-start="3877" selection-end="3877" vertical-scroll-proportion="0.72629696" vertical-offset="1124" max-vertical-offset="1700">
-              <folding />
+            <state line="76" column="24" selection-start="2882" selection-end="2882" vertical-scroll-proportion="0.7878788" vertical-offset="850" max-vertical-offset="1445">
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,31 +89,21 @@
       <file leaf-file-name="history.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guitar_app/templates/guitar_app/history.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="16" selection-start="1188" selection-end="1188" vertical-scroll-proportion="-8.076923" vertical-offset="198" max-vertical-offset="850">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="24" column="16" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="850">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="produser.csv" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/produser.csv">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="8" column="433" selection-start="2204" selection-end="2204" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="238">
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
           </provider>
         </entry>
       </file>
@@ -120,16 +128,7 @@
       <file leaf-file-name="guitar.csv" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guitar.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="47" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="guitar_detail.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guitar_app/templates/guitar_app/guitar_detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="60" selection-start="840" selection-end="840" vertical-scroll-proportion="-10.769231" vertical-offset="9" max-vertical-offset="544">
+            <state line="1" column="47" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="119">
               <folding />
             </state>
           </provider>
@@ -158,18 +157,19 @@
         <option value="$PROJECT_DIR$/guitar_types.csv" />
         <option value="$PROJECT_DIR$/pickups.csv" />
         <option value="$PROJECT_DIR$/produser.csv" />
-        <option value="$PROJECT_DIR$/guitar_app/templates/guitar_app/index.html" />
-        <option value="$PROJECT_DIR$/guitar_app/tables.py" />
         <option value="$PROJECT_DIR$/guitar_app/load_data.py" />
-        <option value="$PROJECT_DIR$/Lab2/settings.py" />
         <option value="$PROJECT_DIR$/guitar_app/sql/History.sql" />
         <option value="$PROJECT_DIR$/guitar_app/sql/Guitar.sql" />
-        <option value="$PROJECT_DIR$/guitar_app/urls.py" />
-        <option value="$PROJECT_DIR$/guitar_app/views.py" />
         <option value="$PROJECT_DIR$/guitar_app/templates/guitar_app/history.html" />
-        <option value="$PROJECT_DIR$/guitar_app/sql_scripts.py" />
         <option value="$PROJECT_DIR$/guitar_app/forms.py" />
         <option value="$PROJECT_DIR$/guitar_app/models.py" />
+        <option value="$PROJECT_DIR$/guitar_app/templates/guitar_app/index.html" />
+        <option value="$PROJECT_DIR$/guitar_app/urls.py" />
+        <option value="$PROJECT_DIR$/guitar_app/sql_scripts.py" />
+        <option value="$PROJECT_DIR$/guitar_app/templates/guitar_app/statistics.html" />
+        <option value="$PROJECT_DIR$/Lab2/settings.py" />
+        <option value="$PROJECT_DIR$/guitar_app/tables.py" />
+        <option value="$PROJECT_DIR$/guitar_app/views.py" />
       </list>
     </option>
   </component>
@@ -205,6 +205,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -289,7 +290,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -394,27 +394,7 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Lab2" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -440,7 +420,27 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Lab2" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -538,26 +538,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13312034" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1341853" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36893204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36813778" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -619,7 +619,9 @@
     <entry file="file://$PROJECT_DIR$/guitar_app/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="44" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="238">
-          <folding />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -682,7 +684,9 @@
     <entry file="file://$PROJECT_DIR$/guitar_app/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="25" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="153">
-          <folding />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -716,7 +720,9 @@
     <entry file="file://$PROJECT_DIR$/guitar_app/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="25" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="153">
-          <folding />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -747,16 +753,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/body.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
-          <folding />
-        </state>
+        <state line="2" column="16" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bridge.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="24" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
-          <folding />
-        </state>
+        <state line="3" column="24" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/guitar.csv">
@@ -781,18 +783,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/produser.csv">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="433" selection-start="2204" selection-end="2204" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="238">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/guitar_app/templates/guitar_app/guitar_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="60" selection-start="840" selection-end="840" vertical-scroll-proportion="-10.769231" vertical-offset="9" max-vertical-offset="544">
+        <state line="17" column="60" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="544">
           <folding />
         </state>
       </provider>
@@ -804,25 +806,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guitar_app/templates/guitar_app/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="31" selection-start="902" selection-end="902" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/guitar_app/templates/guitar_app/table.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="15" selection-start="152" selection-end="152" vertical-scroll-proportion="-1.2480769" vertical-offset="700" max-vertical-offset="1360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guitar_app/tables.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="404" selection-end="416" vertical-scroll-proportion="0.27370304" vertical-offset="0" max-vertical-offset="559">
-          <folding />
-        </state>
+        <state line="3" column="15" selection-start="152" selection-end="152" vertical-scroll-proportion="-1.2480769" vertical-offset="700" max-vertical-offset="1360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/guitar_app/tests.py">
@@ -832,30 +818,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab2/settings.py">
+    <entry file="file://$PROJECT_DIR$/guitar_app/templates/guitar_app/history.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="5" selection-start="1991" selection-end="1991" vertical-scroll-proportion="0.37209302" vertical-offset="1050" max-vertical-offset="1785">
+        <state line="24" column="16" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="850">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guitar_app/templates/guitar_app/index.html">
+    <entry file="file://$PROJECT_DIR$/guitar_app/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="153" selection-start="1701" selection-end="1701" vertical-scroll-proportion="-10.692307" vertical-offset="249" max-vertical-offset="884">
+        <state line="14" column="23" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guitar_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="42" selection-start="3970" selection-end="3970" vertical-scroll-proportion="0.0" vertical-offset="776" max-vertical-offset="1700">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/guitar_app/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="49" selection-start="501" selection-end="501" vertical-scroll-proportion="0.27370304" vertical-offset="0" max-vertical-offset="559">
+        <state line="11" column="59" selection-start="586" selection-end="586" vertical-scroll-proportion="0.18826135" vertical-offset="0" max-vertical-offset="903">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guitar_app/templates/guitar_app/history.html">
+    <entry file="file://$PROJECT_DIR$/guitar_app/sql_scripts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="16" selection-start="1188" selection-end="1188" vertical-scroll-proportion="-8.076923" vertical-offset="198" max-vertical-offset="850">
+        <state line="35" column="31" selection-start="1807" selection-end="1807" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <folding>
+            <marker date="1414924630172" expanded="true" signature="118:138" placeholder="DELETE FROM ..." />
+            <marker date="1414924630172" expanded="true" signature="167:183" placeholder="DELETE FROM ..." />
+            <marker date="1414924630172" expanded="true" signature="212:230" placeholder="DELETE FROM ..." />
+            <marker date="1414924630172" expanded="true" signature="259:278" placeholder="DELETE FROM ..." />
+            <marker date="1414924630172" expanded="true" signature="307:331" placeholder="DELETE FROM ..." />
+            <marker date="1414924630172" expanded="true" signature="360:378" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guitar_app/templates/guitar_app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="45" selection-start="0" selection-end="2179" vertical-scroll-proportion="-16.076923" vertical-offset="24" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guitar_app/templates/guitar_app/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="4" selection-start="409" selection-end="767" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guitar_app/templates/guitar_app/statistics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="6" selection-start="370" selection-end="370" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="510">
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -864,48 +885,31 @@
             <element signature="n#style#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guitar_app/sql_scripts.py">
+    <entry file="file://$PROJECT_DIR$/Lab2/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="1462" selection-end="1462" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding>
-            <marker date="1414870551087" expanded="true" signature="118:138" placeholder="DELETE FROM ..." />
-            <marker date="1414870551087" expanded="true" signature="167:183" placeholder="DELETE FROM ..." />
-            <marker date="1414870551087" expanded="true" signature="212:230" placeholder="DELETE FROM ..." />
-            <marker date="1414870551087" expanded="true" signature="259:278" placeholder="DELETE FROM ..." />
-            <marker date="1414870551087" expanded="true" signature="307:331" placeholder="DELETE FROM ..." />
-            <marker date="1414870551087" expanded="true" signature="360:378" placeholder="DELETE FROM ..." />
-          </folding>
+        <state line="73" column="9" selection-start="1971" selection-end="1971" vertical-scroll-proportion="0.030303031" vertical-offset="1224" max-vertical-offset="1785">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guitar_app/tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="15" selection-start="650" selection-end="650" vertical-scroll-proportion="0.54545456" vertical-offset="0" max-vertical-offset="561">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/guitar_app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="23" selection-start="2380" selection-end="2380" vertical-scroll-proportion="0.54382825" vertical-offset="767" max-vertical-offset="1326">
+        <state line="76" column="24" selection-start="2882" selection-end="2882" vertical-scroll-proportion="0.7878788" vertical-offset="850" max-vertical-offset="1445">
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guitar_app/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="23" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guitar_app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="10" selection-start="3877" selection-end="3877" vertical-scroll-proportion="0.72629696" vertical-offset="1124" max-vertical-offset="1700">
-          <folding />
         </state>
       </provider>
     </entry>

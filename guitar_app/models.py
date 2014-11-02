@@ -91,7 +91,7 @@ class Variables(models.Model):
     id = models.IntegerField(primary_key=True)
     name = models.CharField(max_length=45, blank=True)
     short_name = models.CharField(max_length=20, blank=True)
-    value = models.NullBooleanField(blank=True, null=True)
+    value = models.BooleanField(blank=True)
     class Meta:
         managed = False
         db_table = 'variables'

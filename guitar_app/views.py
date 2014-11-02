@@ -22,6 +22,8 @@ def action(request):
                 models.Guitar.objects.filter(pk__in=pks).delete()
             if action == 'history':
                 return HttpResponseRedirect('/history/')
+            if action == 'statistics':
+                return HttpResponseRedirect('/statistics/')
             if action == 'load':
                 return HttpResponseRedirect('/load_data_from_file/')
         return HttpResponseRedirect('/')
@@ -71,3 +73,8 @@ def history(request):
     RequestConfig(request).configure(table)
 
     return render(request, 'guitar_app/history.html', {'table': table, 'formset': formset})
+
+def statistics(request):
+    table = tables.StatisticsTable(sql_scripts.get_statistics())
+    RequestConfig(request).configure(table)
+    return render(request, "guitar_app/statistics.html", {"table": table})

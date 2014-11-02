@@ -13,3 +13,10 @@ class HistoryTable(tables.Table):
     class Meta:
         model = models.History
         attrs = {"class": "paleblue"}
+
+class StatisticsTable(tables.Table):
+    id = tables.Column()
+    name = tables.Column()
+    count = tables.Column()
+    class Meta:
+        attrs = {"class": "paleblue"}

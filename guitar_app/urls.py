@@ -9,4 +9,5 @@ urlpatterns = patterns('',
     url(r'^load_data_from_file/', views.load_data_view, name='load_data'),
     url(r'^history/', views.history, name='history'),
     url(r'^history_action/', views.history_action, name='history_action'),
+    url(r'^statistics/', views.statistics, name='statistics'),
 )
