@@ -1,7 +1,7 @@
 use guitar_schema;
 
 delimiter //
-
+DROP PROCEDURE IF EXISTS statistics//
 CREATE PROCEDURE statistics()
 BEGIN
 	CREATE TEMPORARY TABLE IF NOT EXISTS res(

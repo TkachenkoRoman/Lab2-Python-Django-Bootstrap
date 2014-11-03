@@ -1,0 +1,6 @@
+SHOW variables LIKE '%tx_isolation%';
+
+SET TRANSACTION ISOLATION LEVEL SERIALIZABLE;
+START TRANSACTION;
+	select * from guitar;
+COMMIT;
